@@ -27,3 +27,8 @@ In each cycle, P executes commands from the command file if any and sends a rand
 ### Child termination:
 Upon termination, a child reports the number of messages received and total active time (based on timestamps).
 
+### How to Run
+
+```python
+make
+ . / parent <CF. txt> <text . txt> <M>
